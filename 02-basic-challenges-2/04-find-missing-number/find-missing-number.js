@@ -1,20 +1,28 @@
-function findMissingNumber(arr) {
-    if(!arr || arr.length === 0){
-        return undefined;
+function findMissingNumber(arr){
+    if (arr.length === 0) return 1;
+     //თუ მასივის სიგრძე ნულის ტოლია დააბრუნოს ერთი
+    const n = arr.length + 1; 
+    //მასივში მყოფი ელემენტების რაოდენობა
+    const expectedSum = (n*(n+1)) / 2;
+    //მასივში მყოფი ელემენტების ჯამი
+    let actualSum = 0;
+    //შემოგვაქვს ცვლადი
 
-    }else{
-
-        const n = arr.length + 1;
-        const expectedSum = (n*(n + 1))/2;
-
-        let actualSum = 0; 
-        for(let i = 0; i < arr.length; i++){
-            actualSum += arr[i];
-        }    
-        
-        return expectedSum - actualSum;
+    for(let i = 0; i < arr.length; i++){
+        //მასივის ელემენტებს ჩამოვუვლით ციკლით
+        actualSum += arr[i];
+        //actualSum-ს დავაჯამებთ თითოეულ წევრს
     }
-    
+
+    return expectedSum - actualSum;
+    //მასივში რეალურად არსებული ელემენტების ჯამს დავაკლებთ, ისეთი მასივის ჯამს, რომელშიც ერთი ელემენტი აკლია
+    //დააბრუნებს ელემენტს
+
+
+
+
 }
+
+
 
 module.exports = findMissingNumber;
