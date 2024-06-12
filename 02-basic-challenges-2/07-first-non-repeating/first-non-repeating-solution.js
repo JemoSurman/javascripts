@@ -5,6 +5,7 @@ function findFirstNonRepeatingCharacter(str) {
   // Count the occurrences of each character
   for (const char of str) {
     charCount[char] = (charCount[char] || 0) + 1;
+    console.log(charCount);
   }
 
   // Find the first non-repeating character
