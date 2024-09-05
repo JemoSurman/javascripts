@@ -1,12 +1,11 @@
-function validAnagrams(str1, str2) {
+function validAnagrams(str1, str2, str3) {
 
     const freqCount1 = str1.split('').reduce((acc, char) => {
         
         acc[char] = (acc[char] || 0) + 1;
 
         return acc;
-    }, {});
-
+    }, {}); 
     const freqCount2 = str2.split('').reduce((acc, char) => {
         
         acc[char] = (acc[char] || 0) + 1;
