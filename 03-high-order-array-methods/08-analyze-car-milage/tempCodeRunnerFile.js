@@ -1,0 +1,1 @@
+    { make: 'Toyota', model: 'Corolla', year: 2020, mileage: 25000 },
