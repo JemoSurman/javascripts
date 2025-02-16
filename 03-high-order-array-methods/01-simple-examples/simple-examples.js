@@ -25,7 +25,7 @@ const oddNumbers = numbers.filter((num) => {
 const multiply = numbers.reduce((total, num) => {
     return total * num;
 });
-console.log(multiply);
+// console.log(multiply);
 
 
 /**
@@ -33,8 +33,12 @@ console.log(multiply);
  */
 let x = 5;
 numbers.forEach((num) => {
-    // console.log(num * 5);
+    // console.log(num * x);
 });
+let y = 6
+numbers.forEach((num) => {
+    // console.log(num * y);
+})
 
 
  /**
