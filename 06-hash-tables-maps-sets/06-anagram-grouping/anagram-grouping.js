@@ -5,7 +5,7 @@ function anagramGrouping(words) {
         const sortedChars = word.split('').sort().join('');
         
         if(!anagramGroups.has(sortedChars)){
-            angramGroups.set(sortedChars, [word]);
+            anagramGroups.set(sortedChars, [word]);
         }else {
             anagramGroups.get(sortedChars).push(word);
         } 
