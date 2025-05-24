@@ -1,7 +1,7 @@
 // Create a set (try adding duplicate Values)
 const nameSet = new Set(['John', 'Jane', 'Joe', 'John', 'Joe']);
 
-// Add values to set
+// Add values 
 nameSet.add('Jack');
 nameSet.add('Jill');
 
@@ -21,7 +21,7 @@ console.log(nameSet.size);
 // Get all values from set
 console.log(nameSet.values());
 
-// Iterate through set
+//iterate through set
 for (const name of nameSet) {
   console.log(name);
 }
@@ -32,3 +32,4 @@ console.log(nameArray);
 
 // Clear set
 nameSet.clear();
+
