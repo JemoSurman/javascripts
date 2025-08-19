@@ -10,4 +10,9 @@ myHashTable.set('John','555-321-568');
 myHashTable.set('Jane', '555-121-788');
 myHashTable.set('Sara', '555-482-923');
 
-myHashTable.printTable();
+
+//console.log(myHashTable.get('John'));
+myHashTable.remove('Jane');
+// myHashTable.printTable();
+console.log(myHashTable.has('Jane'));
+console.log(myHashTable.has('Sara'));
