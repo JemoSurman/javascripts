@@ -6,7 +6,7 @@ class Node {
 }
 
 class LinkedList {
-    constructor(){
+    constructor() {
         this.head = null;
         this.tail = null;
     }
@@ -16,10 +16,9 @@ class LinkedList {
 
         if(this.head === null){
             this.head = node;
-        }else{
+        }else {
             this.tail.next = node;
         }
-
         this.tail = node;
     }
 
@@ -31,23 +30,26 @@ class LinkedList {
             current = current.next;
             i++;
         }
-
         return current;
     }
 
-    printAll(){
+    printAll() {
         let current = this.head;
+
         while(current !== null){
             console.log(current.data);
             current = current.next;
         }
     }
+
+
 }
 
 const list = new LinkedList();
-list.add(1);
-list.add(3);
-list.add(4);
+
+list.add(25);
+list.add(22);
+list.add(21);
 
 console.log(list.get(2));
-// list.printAll();
+

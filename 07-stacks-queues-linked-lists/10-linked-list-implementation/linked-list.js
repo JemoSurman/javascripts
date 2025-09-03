@@ -80,7 +80,7 @@ class LinkedList {
                 current = current.next;
                 i++;
             }
-
+            
             previous.next = current.next;
         }
     }
