@@ -1,0 +1,21 @@
+// let a = 5;
+// let b = a;
+// a = 6;
+// console.log(b);
+
+// let c = { name:"john" };
+// let d = c;
+// c.name = "mamuka";
+// console.log(d);
+
+function findMiddle(){
+    let fast = head;
+    let slow = head;
+
+    while(fast !== null && fast.next !== null){
+        fast = fast.next.next;
+        slow = slow.next;
+    }
+
+    return slow;
+}

@@ -1,95 +1,164 @@
-class Node{
-    constructor(data){
+
+
+// Node class
+class Node {
+    constructor(data) {
+        // The data the node holds.
         this.data = data;
+        // The next node in the list.
         this.next = null;
     }
 }
 
+// Linked list class
 class LinkedList {
-    constructor(){
+    constructor() {
+        // The head of the list.
         this.head = null;
+        // The tail of the list.
         this.tail = null;
     }
 
-    add(data){
+    // Add a node to the end of the list
+    /*
+      Time Complexity: O(1)
+      Space Complexity: O(1)
+    */
+    add(data) {
+        // Create a new node
         const node = new Node(data);
-        if(this.head === null){
+
+        // If the list is empty, set the head to the new node
+        if (this.head === null) {
             this.head = node;
-        }else{
+        } else {
+            // Otherwise, set the next node of the tail to the new node
             this.tail.next = node;
         }
+
+        // Set the tail to the new node
         this.tail = node;
     }
 
-    insertAt(index, data){
-        if(index === 0){
-            const node = new Node(data);
-            node.next = this.head;
-            this.head = node;
-        }else{
-            let current = this.head;
-            let previous = null;
-            let i = 0;
-            while(i < index){
-                previous = current;
-                current = current.next;
-                i++
-            }
-
-            const node = new Node(data);
-            previous.next = node;
-            node.next = current;
-        }
-    }
-
-    get(index){
+    // Get a single node at a specific index
+    /*
+      Time Complexity: O(n)
+      Space Complexity: O(1)
+    */
+    get(index) {
+        // Start at the head
         let current = this.head;
+        // The index of the current node
         let i = 0;
-        while(i < index){
+
+        // Loop through each node until we reach the index
+        while (i < index) {
+            // Move to the next node
             current = current.next;
             i++;
         }
 
+        // Return the data of the current node
         return current.data;
     }
 
-    removeFrom(index){
-        if(index === 0){
-            this.head = this.head.next;
-        }else{
+    // Insert at a specific index
+    /*
+      Time Complexity: O(n)
+      Space Complexity: O(1)
+    */
+    insertAt(index, data) {
+        // If the index is 0, set the head to the new node
+        if (index === 0) {
+            const node = new Node(data);
+            node.next = this.head;
+            this.head = node;
+        } else {
+            // Otherwise, start at the head
             let current = this.head;
             let previous = null;
             let i = 0;
-            
-            while(i < index){
+
+            // Loop through each node until we reach the index
+            while (i < index) {
                 previous = current;
                 current = current.next;
                 i++;
             }
 
-            previous.next = current.next;
+            // Create a new node
+            const node = new Node(data);
+            //   Set the next node of the new node to the current node
+            node.next = current;
+            //  Set the next node of the previous node to the new node
+            previous.next = node;
         }
-
-
     }
 
-    printAll(){
+    /*
+      Time Complexity: O(n)
+      Space Complexity: O(1)
+    */
+    // Remove a node from a specific index
+    removeFrom(index) {
+        // If the index is 0, set the head to the next node
+        if (index === 0) {
+            this.head = this.head.next;
+        } else {
+            // Otherwise, start at the head
+            let current = this.head;
+            let previous = null;
+            let i = 0;
+
+            // Loop through each node until we reach the index
+            while (i < index) {
+                // Move to the next node
+                previous = current;
+                current = current.next;
+                i++;
+            }
+
+            // Set the next node of the previous node to the next node of the current node
+            previous.next = current.next;
+        }
+    }
+
+    // Print all the nodes in the list
+    /*
+      Time Complexity: O(n)
+      Space Complexity: O(1)
+    */
+    printAll() {
+        // Start at the head
         let current = this.head;
-        while(current !== null){
+
+        // Loop through each node
+        while (current !== null) {
+            // Print the data
             console.log(current.data);
+            // Move to the next node
             current = current.next;
         }
-    }   
+    }
+}
+
+
+const str = "jaba";
+
+function reversedStringLinkedlist(str) {
+    const list = new LinkedList();
+    for(let i = 0; i < str.length; i++){
+        list.add(str[i]);
+    }
+
+    let reversedString = '';
+
+    for(let i = str.length - 1; i >= 0; i--){
+        reversedString += list.get(i);
+    }
+    return reversedString;
 }
 
 const list = new LinkedList();
+console.log(reversedStringLinkedlist("jaba"));
 
-list.add(4);
-list.add(2);
-list.add(9);
-list.insertAt(2,4);
-list.removeFrom(2)
-
-console.log('index of 0',list.get(0));
-
-list.printAll();
