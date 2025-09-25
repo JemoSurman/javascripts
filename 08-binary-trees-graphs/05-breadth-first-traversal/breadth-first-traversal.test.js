@@ -1,4 +1,4 @@
-const { Node, breadthFirstTraversal } = require('./breadth-first-traversal');
+ const { Node, breadthFirstTraversal } = require('./breadth-first-traversal');
 
 describe('Breadth-First Traversal', () => {
   test('Should perform breadth-first traversal on the binary tree', () => {
