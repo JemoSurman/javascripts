@@ -9,8 +9,9 @@ class Node {
 function maxDepth(root) {
   if(!root) return [];
 
-  const leftDepth = maxDepth(root.left);
   const rightDepth = maxDepth(root.right);
+  const leftDepth = maxDepth(root.left);
+  
 
   return Math.max(leftDepth, rightDepth) + 1;
 }
