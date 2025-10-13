@@ -12,5 +12,6 @@ g.addVertex('Aspen');
 g.addEdge('Tokyo', 'Dallas');
 g.addEdge('Dallas', 'Aspen');
 g.addEdge('Aspen', 'Tokyo');
+g.removeEdge("Aspen", "Dallas");
 
-console.log(g);
+g.printAdjacencyList();
