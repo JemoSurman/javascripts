@@ -31,4 +31,6 @@ graph.addEdge('E', 'F');
 
 graph.printAdjacencyList();
 
-console.log(depthFirstTraversal(graph, 'A'));
+const result = depthFirstTraversal(graph, 'A');
+
+console.log(result);
