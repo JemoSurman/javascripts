@@ -1,4 +1,4 @@
-const selectionSort = require('./selection-sort');
+const selectionSort = require("./selection-sort");
 
 test('Sort an array in ascending order', () => {
   const unsortedArray = [5, 2, 8, 1, 3];

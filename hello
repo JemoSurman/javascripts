@@ -1,0 +1,179 @@
+[33mcommit f3adbd9d0f82fe89e64adf56f3e4b9e0a33fc953[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Sun Nov 30 21:39:36 2025 +0400
+
+    insertion-sort
+
+[33mcommit 8e6b7f8c2d63dd5b187a23e89be6c599a52b275a[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Tue Oct 21 01:09:43 2025 +0400
+
+    graph-depth-first
+
+[33mcommit 6f9979b85d848093f87582f841fbd820ff60912f[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Mon Oct 13 22:34:03 2025 +0400
+
+    graph
+
+[33mcommit 92ceb9d0ebcd49cd7da5c2669c7b851707968427[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Sun Oct 12 23:11:39 2025 +0400
+
+    validate-bst
+
+[33mcommit 8831e1fe4c151dce445fb1004e2b56b2598bf1e7[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Sun Oct 12 12:05:37 2025 +0400
+
+    bubble-sort
+
+[33mcommit bccab5353632079ce5c0c13c3480bcf7d359522b[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Sun Sep 28 17:08:40 2025 +0400
+
+    binary-search-tree
+
+[33mcommit 93f69cb0807415e975d39d26a09e20d11114209e[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Sun Sep 28 12:23:35 2025 +0400
+
+    maximum-depth
+
+[33mcommit 64ec1ee82aa3184a4b6f8ece4f3466c6c6e7054d[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Sun Sep 28 12:00:19 2025 +0400
+
+    maximum-depth
+
+[33mcommit 8709bc6b648a7679ceaacb7878def647369ca26f[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Thu Sep 25 20:20:31 2025 +0400
+
+    breadth-first-traversal
+
+[33mcommit 5d6980c97a0cd609b01ddd40627a9aa8b539b3d5[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Wed Sep 24 23:13:18 2025 +0400
+
+    breadth-first-traversal
+
+[33mcommit d57f652aff7f53f8186ab37395fc571b7282933b[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Wed Sep 24 22:09:38 2025 +0400
+
+    depth-first-traversal-recursive
+
+[33mcommit 16508f492429f96fef9cd4d5e0d6f1b3de8aa93a[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Tue Sep 23 23:03:01 2025 +0400
+
+    depth-first-traversal
+
+[33mcommit 5b684aefdade89ae9ee48d8c36e8e4725fbcc774[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Wed Sep 17 20:07:34 2025 +0400
+
+    tree-node-class
+
+[33mcommit 50bca64d6bb4cdbdcb70480f490ccef7be1d1d77[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Sat Sep 13 22:45:55 2025 +0400
+
+    find-pai-sum-run
+
+[33mcommit 969f254b7fba33c02921e0493205e6dbfc1ac837[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Sat Sep 13 15:57:48 2025 +0400
+
+    doubly-linked-list
+
+[33mcommit 4e939b4f0af67bf5ecae0d1d1d84dddfa9309943[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Wed Sep 10 21:43:56 2025 +0400
+
+    Doublylinkedlist1/2
+
+[33mcommit 66ea9716e000a93e13f9d17d9dacc7b799b382c4[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Sun Sep 7 00:38:48 2025 +0400
+
+    find-middle
+
+[33mcommit 5992d87e7e918e301b5036c5b6a27d345898d716[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Sat Sep 6 19:44:20 2025 +0400
+
+    fast-slow-pointers
+
+[33mcommit fd070ddf87b1c9ce052d9a6fd1f2dc19b6ae47f8[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Fri Sep 5 18:18:42 2025 +0400
+
+    reverse-string
+
+[33mcommit 0a0da2bdd12357f1070e0fb7d18e9e963b4281dd[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Wed Sep 3 22:40:23 2025 +0400
+
+    linked-list
+
+[33mcommit 633058e677b452c04c63b5e2f64e4f19e43b095e[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Tue Sep 2 18:00:34 2025 +0400
+
+    linked-list
+
+[33mcommit 7e94df80d0d5cbe61d9f5c37cfcba35671769d46[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Tue Sep 2 11:13:55 2025 +0400
+
+    palindrome-queue-stack
+
+[33mcommit 42dcfb9fa239a8d866c5d0a84c50fa14578d5976[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Mon Sep 1 16:30:25 2025 +0400
+
+    reverse-string-queue
+
+[33mcommit 7c07ced9180697853f0d591ba7c435296d031f0a[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Mon Sep 1 15:18:41 2025 +0400
+
+    queue
+
+[33mcommit d5bcda042de6fd0b70b888ea32dfc304dbb43a59[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Mon Sep 1 13:21:47 2025 +0400
+
+    balanced-parenthesis
+
+[33mcommit 13bc38cd714386cd083dd633d1c7acc8f06f694c[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Sun Aug 31 14:14:11 2025 +0400
+
+    reverse-String
+
+[33mcommit 25064d521ce13d97df58cfa25c9c8f20dba2a3c7[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Thu Aug 21 16:54:11 2025 +0400
+
+    stack
+
+[33mcommit 928a2eef37f008bb69d518c4e3892ce7b41e01da[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Wed Aug 20 15:48:31 2025 +0400
+
+    custom0anagram-grouping
+
+[33mcommit 3eb38913ed20cb833d8f513bcab96c36c30ebd38[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Wed Aug 20 13:00:31 2025 +0400
+
+    get-values
+
+[33mcommit 9adee080d75b70e6589a01a8060c38233fb995d2[m
+Author: JemoSurman <jemosurman@gmail.com>
+Date:   Wed Aug 20 12:45:39 2025 +0400
+
+    word-intance-counter
